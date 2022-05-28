@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/avatar.jpg" type="imahe/x-icon" />
+    <title>CV_DR</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="card bg-red">
+        <div class="info">
+          <img id="ava" src="img/avatar.jpg" alt="Тут мое ФОТО" width="200" />
+          <div class="info-text">
+            <h1>Dmitriy Radchenko</h1>
+            <p><b>It-Recruiter</b>, who wants to become a <b>developer</b></p>
+            <p>I love my job, but development has always been my goal</p>
+
+            <h4>SocNetworks</h4>
+            <span>
+              <a href="https://t.me/ma5ka" target="_blank">
+                <img src="img/tg.png" alt="TG" title="TG" />
+              </a>
+            </span>
+            <span>
+              <a href="https://vk.com/offghm" target="_blank">
+                <img src="img/vk.png" alt="VK" title="VK" />
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>Hobbies</h2>
+        <ol class="list">
+          <li>snowboardings</li>
+          <li>football</li>
+          <li>investment</li>
+        </ol>
+      </div>
+      <div class="card bg-green">
+        <h2>Experience</h2>
+        <table class="table">
+          <tr>
+            <td>Telegrupp</td>
+            <td>Human Resources mananger</td>
+            <td>10.2020-12.2021</td>
+          </tr>
+          <tr>
+            <td>Codu.pro</td>
+            <td>Talent Acquisition Manager</td>
+            <td>01.2022-Present</td>
+          </tr>
+          <tr>
+            <td>SP "Bezrukov"</td>
+            <td>Human Resources mananger</td>
+            <td>04.2022-Present</td>
+          </tr>
+        </table>
+      </div>
+      <div class="card bg-red">
+        <div class="contact">
+          <h2>Contact me</h2>
+          <form action="/">
+            <div class="row">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="enter name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="enter Email" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="text">Message</label>
+            </div>
+            <div class="form-group">
+              <textarea
+                id="text"
+                cols="30"
+                rows="10"
+                placeholder="Enter your text"
+              ></textarea>
+            </div>
+
+            <input class="btn" type="submit" value="contact" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

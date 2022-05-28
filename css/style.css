@@ -1,0 +1,156 @@
+body {
+  padding-top: 20px;
+  background-color: rgb(222, 223, 223);
+  color: rgb(46, 46, 46);
+  font-size: 16px;
+  width: 60%;
+  margin: auto;
+  font-weight: normal;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.card {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border-radius: 30px;
+}
+.bg-red {
+  background-color: rgb(255, 229, 229);
+}
+
+div {
+  display: block;
+}
+.bg-yellow {
+  background-color: rgb(255, 249, 220);
+}
+
+.bg-green {
+  background-color: rgb(229, 255, 231);
+}
+.bg-red {
+  background-color: rgb(255, 229, 229);
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+#ava {
+  width: 200px;
+  height: auto;
+  box-shadow: blue 0px 0px 10px;
+  border-radius: 50%;
+}
+
+.info-text a {
+  width: 200px;
+}
+.info-text {
+  margin-left: 50px;
+}
+p {
+  display: block;
+  color: #86898f;
+}
+
+b {
+  color: black;
+}
+
+.info p {
+  color: rgb(134, 137, 143);
+  margin: 0px;
+}
+h1 {
+  text-shadow: 2px 2px 5px #00000067;
+  text-decoration: underline;
+  color: #0707e9;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+.form-group label {
+  color: rgb(37, 39, 44);
+}
+.list {
+  padding: 0px 20px;
+  list-style: none;
+}
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  text-align: left;
+  padding: 0 100px;
+}
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+  color: #86898f;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+.row > .form-group:last-child {
+  margin: 0px;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #372e2e;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  color: black;
+  border: 0;
+  font-family: inherit;
+  background: transparent;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  padding: 15px 0px 10px;
+  outline: none;
+}
+
+.btn {
+  background-color: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: 0;
+  font-family: inherit; /*наследие шрифта*/
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
